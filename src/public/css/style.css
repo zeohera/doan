@@ -187,6 +187,56 @@ header .container .row .col-md-5.right .container .row .col-md-2 .icon::after {
   text-align: center;
 }
 
+footer {
+  background-color: #F4F2F1;
+  color: #0D0D0D;
+}
+
+footer .row {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+footer .row .col-md-3 {
+  display: block;
+}
+
+footer .row .col-md-3 span {
+  display: block;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+footer .row .col-md-3 a {
+  text-decoration: none;
+  color: #0D0D0D;
+  font-size: small;
+}
+
+footer .row .col-md-3 .col-lg-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .row .col-md-3 .col-lg-3 .icon-cover .gg-youtube {
+  display: block;
+  background-color: red;
+  color: white;
+  margin: 5px auto;
+}
+
+footer .row .col-md-3 .col-lg-3 .icon-cover .gg-facebook {
+  position: relative;
+  color: #1877f2;
+  margin: auto;
+}
+
 body {
   height: 1000px;
 }
